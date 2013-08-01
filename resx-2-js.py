@@ -90,7 +90,7 @@ class ResourceToJs:
                     translation = object_path + '.' + name + '="' + val + '";\n'
                     js_file.write(translation.encode(encoding))
                 else:
-                    print name + ' is an invalid javascript variable name'
+                    print name + ' is an invalid javascript variable name. continuing...'
         finally:
             js_file.close()
 
@@ -108,9 +108,6 @@ if __name__ == '__main__':
 
     path_to_resource_folder = args[0]
     path_to_js_folder = args[1]
-
-    print path_to_resource_folder + '\n'
-    print path_to_js_folder + '\n'
 
     js_object_name = 'Translations' if len(args) < 3 else args[2]
 
