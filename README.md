@@ -7,7 +7,7 @@ Use
 
 Get access to your resource translations in javascript.
 
-The resx-2-javascript.py takes 3 arguments
+The resx-2-js.py takes 3 arguments
 1) the path your App_Resources folder or whatever directory contains all your resource files/folders 
   (from this point on this will be refered to as the App_Resources folder)
 2) the path to directory where you would like the javascript to be written
