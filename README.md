@@ -32,7 +32,9 @@ Example
 if your resource files looked something like this 
 
 App_Resources
+
         -----> TestFolder
+        
                 Test.es.resx
                   Key      | Value
                   -----------------
@@ -46,6 +48,7 @@ App_Resources
                   two      | two
           
         -----> NextFolder
+        
                 Test.ru.resx
                   Key      | Value
                   -----------------
