@@ -32,29 +32,29 @@ Example
 if your resource files looked something like this 
 
 App_Resources
------> TestFolder
-        Test.es.resx
-          Key      | Value
-          -----------------
-          one      | uno
-          two      | dos 
-        
-        Test.resx
-          Key      | Value
-          -----------------
-          one      | one
-          two      | two
+        -----> TestFolder
+                Test.es.resx
+                  Key      | Value
+                  -----------------
+                  one      | uno
+                  two      | dos 
+                
+                Test.resx
+                  Key      | Value
+                  -----------------
+                  one      | one
+                  two      | two
           
------> NextFolder
-        Test.ru.resx
-          Key      | Value
-          -----------------
-          hello    | привет
-        
-        Test.resx
-          Key      | Value
-          -----------------
-          hello    | hello
+        -----> NextFolder
+                Test.ru.resx
+                  Key      | Value
+                  -----------------
+                  hello    | привет
+                
+                Test.resx
+                  Key      | Value
+                  -----------------
+                  hello    | hello
           
 These files would be written to whatever directory was specified as the output directory
 
