@@ -88,12 +88,6 @@ Notes
 outputs as utf8
 directory names file names and keys in resx files must all be valid javascript attribute names
 
-Disclaimer
-=================
-The code is not very efficient so I wouldn't use this at runtime.   I also haven't had time to 
-clean it up yet so I'm sure that are many areas that could used quite a bit of improvment.  Please
-Feel free to fork and do so. 
-
 
 
 
